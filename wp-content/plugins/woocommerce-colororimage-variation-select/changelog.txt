@@ -1,0 +1,213 @@
+﻿***CHANGELOG***
+Version 2.6 - 25 october 2018
+* version: 2.6.03 - fix - restore available options on clear selection.
+* version 2.6.02 - removed woocommerce_after_add_to_cart_button hook from variable.php .
+* version 2.6.01 - Added option to hide unavailable options.
+Version 2.5 - 10 june 2018
+* version 2.5.9 - Fixed disable variation issue on clear selection.
+* version 2.5.8 - Fixed issue with previous update.
+* version 2.5.7 - Disable unavailable options on page load.
+* version 2.5.6 - Removed console log entries on single product page.
+* version 2.5.5 - Fixed bug related to hiding unavailable options.
+* version 2.5.4 - Fixed js error.
+* version 2.5.3 - Updated add-to-cart-variation.js
+* version 2.5.2 - Fixed malware warning.
+* version 2.5.1 - Removed //do_action( ‘woocommerce_before_add_to_cart_button’ );  from variable.php .
+* Added - Multiple images per variation.
+Version 2.4 - 5 June 2018
+* version 2.4.12 - Fix-extra space between swatches and clear selection link.
+* version 2.4.11 - Fix-use of slug when default option is chosen.
+* version 2.4.10 - Fix-use of label as selected option instead of slug.
+* version 2.4.9 - Added version check tags for woocommerce 3.2+.
+* version 2.4.8 - Added option to use variation image as swatch image in case of single attribute.
+* version 2.4.7 - fix- Removed default dark color for attribute label.
+* version 2.4.6 - fix- clear selected attribute upon swatch deselect.
+* version 2.4.5 - fix- clear selection link appears before swatches.
+* version 2.4.4 - Show selected attribute name on single product page.
+* version 2.4.3 - fix for avada pricing issue with update 2.4.1.
+* version 2.4.2 - added support for category shortcodes.
+* version 2.4.1 - fixed pricing issue with avada theme.
+* Fix - Removed display:none; property on single_variation_wrap into variable.php template.
+* Fix - Direct variation link issue arised after 2.3.9
+Version 2.3 - 08 April 2017
+* version 2.3.9 - fixed debug error on wooswatches tab.
+* version 2.3.8 - fixed bug with direct variation link.
+* version 2.3.7 - fixed debug error.
+                - fixed debug error on [product_page ] shortcode.
+				- fixed direct variation link incompatibility issue with WC 3.0 .
+* version 2.3.6 - Removed plugin update library. Use http://envato.github.io/wp-envato-market/ instead.
+                - Fixed Js output bug on simple products. 
+		        - Fixed debug errors on single product page. 
+* version 2.3.5 - Bug fixed with previous release.
+* version 2.3.2 - Fixed debug erros.
+* version 2.3.1 - Fixed bug related to previous release.
+* Fixed WooCommerce 3.0 Compatiblity Issue
+Version 2.2 - 04 Octomber 2016
+* version 2.2.9 - Fixed debug errors on my account page.
+* version 2.2.8 - Added- rel="nofollow" to filter widget links.
+                 
+* version 2.2.7 - Added- wcva_after_attribute_swatches hook
+                  Tweak- Change in textblock CSS
+* version 2.2.6 - Fix- Filter widget swatches showing css output. 
+* version 2.2.5 - Fix- hover image not getting removed under product/attributes. 
+* version 2.2.4 - Fixed bug with previous update. 
+* version 2.2.3 - Removes unavailable options in default dropdowns and disables unavailable option swatches.
+* version 2.2.2 - Replaced smallipop with powerTip, Show shop swatches in related products and you may also like.
+* version 2.2.1 - Replaced minitip with smallipop,Fixed bug with previous version.
+* Fix   - Swatches not showing under private mode.
+* Added - Inbuilt swatches product filter.
+* Added - Shop swatches now works with global values as display type.
+* Added - wcva_show_hidden_dropdown hook to show dropdowns along with swatches.
+* Added - Option to change hover image size.
+
+Version 2.1 - 07 September 2016
+* version 2.1.8 - Fixed minor css bug. 
+* version 2.1.7 - Disables unavailable options.
+* version 2.1.5 - removed disabled="disabled" attrabute on add to cart button. 
+                - Fix for debug errors related to shop swatches.
+				- CSS tweak for round swatches.
+* version 2.1.4 - Fixed shop hover swatch border issue.
+                - Fixed shop swatches wrong order issue.
+* version 2.1.3 - Added border on hover on shop swatches.
+                - Fixed bug with direct variation link.
+		        - Fixed below name CSS issue.
+	             - Fixed shop hover image dimension issue.
+* version 2.1.2 - some CSS tweak,fixed fatal error due to class conflict.
+* version 2.1.1 - added class to hidden select element,option to replace hover with click on shop swatches.
+* Added option to disable tooltip on iOS devices to avoide double click.
+* Added wcva_attribute_swatch_display_type and wcva_attribute_swatch_image hook.
+* Added inbuilt direct variation link feature.
+* Added textblock option as attribute display type.
+
+Version 2.0 - 28 june 2016
+
+* Version 2.0.4- Fixed debug errors. 
+* Version 2.0.3- Fixed debug errors, remove "disable [product_page ] shortcode support checkbox" from plugin settings page. 
+* Version 2.0.2- Added wcva_attribute_display_type hook. 
+* Version 2.0.1- Added wcva_swatch_image_url and wcva_hover_image_url hook. 
+* Improvement in page loading speed. 
+* Fixed bug with global display type. 
+
+Version 1.9 – 29 february 2016
+
+* Added feature to manage attribute options globally.
+
+Version 1.8   - 25 february 2016
+
+* Added possiblity to manage attribute options globally. 
+
+Version 1.8   - 30 january 2016
+
+* 1.8.1- fixed attribute label translation issue with WPML,removed custom label option.
+* Fixed CSS issue related to "attribute name below swatch".
+* Fixed compatibility issues with Woocommerce 2.5.
+
+Version 1.7   - 10 december 2015
+
+* Fixed compatiblity issues with WP 4.4.
+* Improvement in frontend single product page css.
+* Fixed shop hover image change issue with virtue,pinnacle theme.
+* Moved plugin settings to Woocommerce/settings/swatches tab from Woocommerce/settings/products/display
+
+Version 1.6   - 10 october 2015
+
+* 1.6.8 - added optional tooltip on swatches.
+* 1.6.7 - made button classes unique to avoid conflict on attribute edit page,fixed one debug error.
+* 1.6.6 - fixed bug that makes attribute label selected on click,fixed bug related to default options.
+* 1.6.5 - fixed bug related to different term slug and term name,some changes in automatic plugin update related
+          code to improve performance.
+* 1.6.4 - fixed custom label text bug,added option to use custom product page swatches height/width.
+* 1.6.3 - fixed wp_debug error,fixed bug related to global attributes.
+* 1.6.2 - Change in purchase code verification code, added [product_page] shortcode support,
+          fixed conflict issue due to space,rowurldecode,minor changes in product-frontend.js file.
+* 1.6.1 - Fixed bug related to previous release.
+* Fixed compatibility issues related to woocommerce 2.4.X
+* Fixed variation description related issue.
+* Fixed issue related to special characters. 
+* Added automatic update feature.
+
+Version 1.5   - 23 august 2015
+
+* Verified compatibility with latest wordpress 4.3 and woocommerce 2.4.5
+ 
+Version 1.4   - 17 January 15 
+
+* Added Direct Variation link Support on Shop Swatches.
+* Added Option to change the location of Shop Swatches.
+* Moved Shop swatches settings from general to products tab.
+
+Version 1.3   - 30 December 14 
+
+
+* Version 1.3.1 - Added rowurlencode to backend lable test.
+* Displays Swatches below each product on shop/category/tag pages.
+* Changes product image on swatch hover.
+
+
+Version 1.2   - 20 December 14 
+
+* version 1.2.1 - Fixed Small Issue with Greek Language.
+* Fixed Compatibility Issue with YITH WooCommerce Zoom Magnifier.
+* Fixed Compatibility Issue with Multiple Images Per variation Plugin.
+* Fixed Image Zoom Compatibility Issue with IDSTORE,LEGENDAV,AVADA Theme.
+
+
+
+Version 1.1   - 11 november 14
+
+* version 1.1.5 - Some changes in plugin code , no change in features.
+* version 1.1.4 - Fixed issue with decimal values , Removed Admin attribute header preview.
+* version 1.1.3 - Fixed bug related to global color or image.
+* version 1.1.2 - Support attribute name to be displayed under swatch.
+* version 1.1.1 - added title hover to swaatches.
+* Fixed compatibility issue with IE 11.
+* Improved Front-end Compatibility with Major themes.
+* Little tweak in admin side code.
+* Improved CSS.
+* Verified Compatibility with wordpress 4.0 and woocommerce 2.2.8.
+* Verified functionality with All major browsers including IE 9,10,11.
+
+
+Version 1.0.8 -12 July 14
+* Improvement in global Color or image per attribute.
+* 1.0.8.1 - fixed bug related to woocommerce older versions.
+
+Version 1.0.7 -3 June 14
+
+* replaced green border with black border on checked for image or color.
+* fixed issue with default option selected on product load.
+* Loads default select for IE11.
+
+Version 1.0.6 -24 May 14
+
+* Fixed Compatibility issue with IE. 
+
+
+Version 1.0.5 -18 May 14
+
+* Replaced Common display type selection with Per attribute selection.
+* Improved Frontend CSS.
+
+Version 1.0.4 -17 April 14
+
+* added color or image settings on attribute edit pages.
+
+Version 1.0.3 -15 April 14
+
+* added radio button support .
+
+* many minor improvements
+
+Version 1.0.3 -16 April 14
+
+* Improved theme compatibility.
+
+* Improved CSS
+
+* Removed custom label text option .
+
+Version 1.0.1 -14 April 14
+
+* fixed bug related to variable add to cart button.
+
+

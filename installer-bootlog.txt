@@ -1,0 +1,111 @@
+Feb 3 10:09:25 ==DUPLICATOR INSTALLER BOOTSTRAP v3.7.3.1==
+Feb 3 10:09:25 ----------------------------------------------------
+Feb 3 10:09:25 Installer bootstrap start
+Feb 3 10:09:25 Using archive C:/xampp/htdocs/shopee/20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip
+Feb 3 10:09:25 Going to overwrite installer directory since either in overwrite mode or installer directory doesn't exist
+Feb 3 10:09:25 Ready to extract the installer
+Feb 3 10:09:25 ZipArchive exists so using that
+Feb 3 10:09:25 Successfully opened C:/xampp/htdocs/shopee/20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip
+Feb 3 10:09:25 Extracting all files from archive within dup-installer
+Feb 3 10:09:25 Success: dup-installer/classes/utilities/class.u.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/utilities/class.u.multisite.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/utilities/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/config/class.conf.srv.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/config/class.archive.config.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/config/class.constants.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/config/class.conf.wp.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/config/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.http.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.crypt.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.server.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.db.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.engine.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.logging.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/classes/class.installer.state.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s1.base.deletesite.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s3.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s2.basic.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s2.dbtest.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s1.base.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s4.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s2.cpnl.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.init1.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s2.base.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.help.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.api.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s1.base.movesite.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/views/view.s1.terms.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/main.installer.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/FontAwesome.otf >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/fontawesome-webfont.woff2 >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/fontawesome-webfont.woff >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/fontawesome-webfont.eot >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/fonts/fontawesome-webfont.ttf >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/css/font-awesome.min.css >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/css/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/font-awesome/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/inc.libs.js.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/inc.libs.css.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/inc.css.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-icons_2e83ff_256x240.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_glass_65_ffffff_1x400.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_highlight-soft_75_cccccc_1x100.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_glass_75_dadada_1x400.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_glass_55_fbf9ee_1x400.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-icons_222222_256x240.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-icons_cd0a0a_256x240.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-icons_888888_256x240.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_glass_75_e6e6e6_1x400.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-icons_454545_256x240.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/images/ui-bg_glass_95_fef1ec_1x400.png >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/inc.js.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/assets/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/api/router.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/api/class.cpnl.ctrl.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/api/class.api.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/api/class.cpnl.base.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/api/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s1.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s3.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s2.dbinstall.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s2.dbtest.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.base.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s2.base.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/ctrl.s1.extraction.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/ctrls/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/archive.cfg >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.stream.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.util.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.ui.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.url.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.os.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.io.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.net.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.logger.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/snaplib.all.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/class.snaplib.u.string.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/snaplib/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/class.fileops.u.move.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/class.fileops.state.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/class.fileops.u.delete.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/fileops.ppp >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/class.fileops.constants.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Success: dup-installer/lib/fileops/index.php >>> C:\xampp\htdocs\shopee
+Feb 3 10:09:25 Successfully closed C:/xampp/htdocs/shopee/20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip
+Feb 3 10:09:25 Successfully extracted with ZipArchive
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/api to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/assets to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/classes to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/ctrls to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/lib to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/views to 755<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/archive.cfg to 666<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/index.php to 666<br/>
+Feb 3 10:09:25 Set permissions of C:/xampp/htdocs/shopee/dup-installer/main.installer.php to 666<br/>
+Feb 3 10:09:25 No detected errors so redirecting to the main installer. Main Installer URI = http://localhost/shopee/dup-installer/main.installer.php?archive=C%3A%2Fxampp%2Fhtdocs%2Fshopee%2F20181209_mauwebshopthietkewebsiten_df57adb20019e8e19503_20181209064237_archive.zip&bootloader=installer.php&

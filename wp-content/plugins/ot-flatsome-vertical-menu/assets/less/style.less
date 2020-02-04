@@ -1,0 +1,375 @@
+@color_1: #fff;
+@font_family_1: "Roboto Condensed", sans-serif;
+@border_color_1: transparent;
+@border_color_2: transparent #CFDEFF;
+@border_top_color_1: #5f5a5a;
+@border_top_color_2: white;
+@border_left_color_1: #5f5a5a;
+@border_left_color_2: white;
+@border_left_color_3: #dFeEFF;
+@border_left_color_4: rgba(255, 255, 255, .5);
+@border_left_color_5: rgba(51, 47, 47, 0.5);
+
+#mega_menu {
+  a {
+    font-size: 0.9em;
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+
+  > li {
+
+    background: #fff;
+
+    &:first-child {
+      a {
+        //border-top: none;
+      }
+    }
+
+    > a {
+      border-top: 1px solid #ddd;
+      font-size: 0.9em;
+    }
+  }
+
+  position: absolute;
+  top: 100%;
+  margin-top: 0px;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+  display: none;
+}
+
+.sf-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-bottom: 1em;
+
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    background: #fff;
+    white-space: nowrap;
+    *white-space: normal;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+
+    &:hover {
+      > ul {
+        display: block;
+      }
+
+      background: #CFDEFF;
+      -webkit-transition: none;
+      transition: none;
+    }
+  }
+
+  ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+    min-width: 12em;
+    *width: 12em;
+
+    ul {
+      top: 0;
+      left: 100%;
+
+      li {
+        background: #fff;
+      }
+    }
+
+    li {
+      background: #fff;
+    }
+  }
+
+  > li {
+    float: left;
+  }
+
+  li.sfHover {
+    > ul {
+      display: block;
+    }
+
+    background: #CFDEFF;
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  a {
+    display: block;
+    position: relative;
+    border-top: 1px solid #dFeEFF;
+    padding: 0.55em 1em;
+    text-decoration: none;
+    zoom: 1;
+  }
+}
+
+.sf-arrows {
+  .sf-with-ul {
+    padding-right: 2.5em;
+    *padding-right: 1em;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 1em;
+      margin-top: -3px;
+      height: 0;
+      width: 0;
+      border: 5px solid transparent;
+      border-top-color: @border_top_color_1;
+    }
+  }
+
+  > li {
+    > .sf-with-ul {
+      &:focus {
+        &:after {
+          border-top-color: @border_top_color_2;
+        }
+      }
+    }
+
+    &:hover {
+      > .sf-with-ul {
+        &:after {
+          border-top-color: @border_top_color_2;
+        }
+      }
+    }
+  }
+
+  > .sfHover {
+    > .sf-with-ul {
+      &:after {
+        border-top-color: @border_top_color_2;
+      }
+    }
+  }
+
+  ul {
+    .sf-with-ul {
+      &:after {
+        margin-top: -5px;
+        margin-right: -3px;
+        border-color: @border_color_1;
+        border-left-color: @border_left_color_1;
+      }
+    }
+
+    li {
+      > .sf-with-ul {
+        &:focus {
+          &:after {
+            border-left-color: @border_left_color_2;
+          }
+        }
+      }
+
+      &:hover {
+        > .sf-with-ul {
+          &:after {
+            border-left-color: @border_left_color_2;
+          }
+        }
+      }
+    }
+
+    .sfHover {
+      > .sf-with-ul {
+        &:after {
+          border-left-color: @border_left_color_2;
+        }
+      }
+    }
+  }
+}
+
+.sf-vertical {
+  width: 12em;
+  width: 12em;
+
+  ul {
+    left: 100%;
+    top: 0;
+    left: 100%;
+    top: 0;
+  }
+
+  > li {
+    float: none;
+    float: none;
+  }
+
+  li {
+    width: 100%;
+    width: 100%;
+  }
+}
+
+.sf-vertical.sf-arrows {
+  > li {
+    > .sf-with-ul {
+      &:after {
+        margin-top: -5px;
+        margin-right: -3px;
+        border-color: @border_color_1;
+        border-left-color: @border_left_color_3;
+        border-left-color: @border_left_color_4;
+        margin-top: -5px;
+        margin-right: -3px;
+        border-color: @border_color_1;
+        border-left-color: @border_left_color_3;
+        border-left-color: @border_left_color_5;
+      }
+    }
+  }
+
+  li {
+    > .sf-with-ul {
+      &:focus {
+        &:after {
+          border-left-color: @border_left_color_2;
+          border-left-color: @border_left_color_2;
+        }
+      }
+    }
+
+    &:hover {
+      > .sf-with-ul {
+        &:after {
+          border-left-color: @border_left_color_2;
+          border-left-color: @border_left_color_2;
+        }
+      }
+    }
+  }
+
+  .sfHover {
+    > .sf-with-ul {
+      &:after {
+        border-left-color: @border_left_color_2;
+        border-left-color: @border_left_color_2;
+      }
+    }
+  }
+}
+
+.ot-overplay.active-menu {
+  main#main {
+    &:after {
+      content: "";
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  footer#footer {
+    &:after {
+      content: "";
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+#wide-nav {
+  > .flex-row {
+    > .flex-left {
+      width: 25%;
+      min-width: 245px;
+      margin-right: 15px;
+    }
+  }
+}
+
+#mega-menu-wrap {
+  width: 100%;
+  background: #1d71ab;
+  position: relative;
+}
+
+#mega-menu-title {
+  padding: 10px 0 10px 15px;
+  font-size: 15px;
+  font-family: @font_family_1;
+  font-weight: 700;
+  color: @color_1;
+  cursor: pointer;
+
+  i {
+    margin-right: 9px;
+  }
+}
+
+#mega-menu {
+  .sub-menu {
+    background: #fff;
+  }
+}
+
+#header.header.has-sticky {
+  .header-wrapper.stuck {
+    #mega_menu {
+      margin-top: 0;
+
+      &:not(.active) {
+        display: none;
+      }
+    }
+  }
+}
+
+.ot-vm-hover {
+  &:hover {
+    #mega_menu {
+      display: block;
+    }
+  }
+}
+
+#header.header {
+  #mega_menu.active {
+    display: block;
+  }
+}
+
+.home.ot-menu-show-home #mega_menu {
+  display: block;
+}
+.ot-vm-hover:hover #mega_menu {
+  display: block
+}
+

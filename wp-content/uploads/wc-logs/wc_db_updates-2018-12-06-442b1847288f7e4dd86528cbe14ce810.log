@@ -1,0 +1,4 @@
+2018-12-06T02:22:38+00:00 INFO Queuing 3.5.2 - wc_update_352_drop_download_log_fk
+2018-12-06T02:22:38+00:00 INFO Running wc_update_352_drop_download_log_fk callback
+2018-12-06T02:22:39+00:00 INFO Finished running wc_update_352_drop_download_log_fk callback
+2018-12-06T02:22:39+00:00 INFO Data update complete

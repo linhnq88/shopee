@@ -1,0 +1,29 @@
+/*
+Theme Name: Shop2
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.showinfo {
+    position: absolute;
+    top: 0px;
+    width:100%;
+    height:100%;
+    z-index:22;
+    display:block;
+    background: #fff; 
+}
+.product-small:hover .showinfo{
+    display:block;
+    cursor:pointer;
+    opaticy: 0.5;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}

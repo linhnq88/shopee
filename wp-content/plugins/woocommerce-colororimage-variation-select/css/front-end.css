@@ -1,0 +1,158 @@
+div.swatchinput {
+
+  display:inline-block;
+
+  padding-right:7px;
+
+  padding-bottom:3px;
+
+}
+
+span.belowtext {
+
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: sans-serif;
+    width: auto;
+    left: 50%;
+    font-size: 12px !important;
+
+}
+
+
+
+
+label.selectedswatch {opacity: .9;}
+
+label.selectedswatch.wcvasquare {
+
+    cursor:pointer;
+
+    background-size:contain;
+
+    background-repeat:no-repeat;
+
+	
+
+    display:inline-block;
+
+    -webkit-transition: all 100ms ease-in;
+
+       -moz-transition: all 100ms ease-in;
+
+            transition: all 100ms ease-in;
+  
+    border: solid 2px white !important;
+    
+	outline: solid 2px black !important;
+
+    line-height: 1.0000;
+
+}
+
+label.selectedswatch.wcvaround {
+
+    cursor:pointer;
+
+    background-size:contain;
+
+    background-repeat:no-repeat;
+
+	display:inline-block;
+
+    -webkit-transition: all 100ms ease-in;
+
+       -moz-transition: all 100ms ease-in;
+
+            transition: all 100ms ease-in;
+
+    box-shadow: 0px 0px 0px 2px white inset;
+
+	border: solid 2px black !important;
+
+    line-height: 1.0000;
+
+}
+
+label.wcvaswatchlabel{
+
+    cursor:pointer;
+
+    background-size:contain;
+
+    background-repeat:no-repeat;
+
+	
+
+    display:inline-block;
+
+    -webkit-transition: all 100ms ease-in;
+
+       -moz-transition: all 100ms ease-in;
+
+            transition: all 100ms ease-in;
+
+
+
+	border: solid 2px white !important;
+
+    outline: solid 1px #9C9999 !important;
+
+    line-height: 1.0000;
+
+}
+
+label.wcva_single_textblock {
+    text-align: center;
+	width:auto; 
+	padding: 0 10px;
+	line-height: 30px;
+	color:black;
+	border: solid 0px white !important;
+    outline: solid 0px #9C9999 !important;
+	background:#eee;
+	font-size: 14px;
+	font-weight:500 !important;
+	border-radius: 20%;
+	
+}
+
+label.selectedswatch.wcva_single_textblock {
+
+    background:#333;
+	color:#fff;
+    border: solid 0px white !important;
+    outline: solid 0px #9C9999 !important;
+	line-height: 30px;
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight:500 !important;
+	border-radius: 20%;
+
+}
+
+label.wcvaround {
+
+    border-radius: 50%;
+
+    -webkit-border-radius: 50%;
+
+    -moz-border-radius: 50%;
+
+	outline: solid 0 #9C9999 !important;
+
+}
+
+
+.swatchtitlelabel {
+
+	font-weight: 700;
+
+}
+
+label.wcvadisabled {
+	pointer-events: none;
+	cursor: not-allowed;
+	opacity: 0.4;
+}
+

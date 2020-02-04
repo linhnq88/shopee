@@ -1,0 +1,27 @@
+
+ol.flex-control-nav.flex-control-thumbs img {
+ width:69px;
+ height:69px;
+ border: solid 6px white !important;
+ outline: solid 2px #d5d5d5 !important;
+ max-width:none;
+}
+
+.flex-control-nav li {
+ padding-left:2px;	
+}
+
+ol.woocommerce-product-gallery__wrapper {
+list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+

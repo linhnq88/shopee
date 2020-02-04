@@ -1,0 +1,41 @@
+.wmvi-image-ui-div .images_ui > li {
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+}
+
+.wmvi-image-ui-div .images_ui li img {
+  height: 70px;
+  width: 70px;
+  border: solid 6px white !important;
+  outline: solid 2px #d5d5d5 !important;
+}
+
+.wmvi-image-ui-div .images_ui li ul.removeimage {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+ul.removeimage li a.wmvi-remove-image {
+  display: block;
+  font-size: 1.4em;
+  height: 1em;
+  position: relative;
+  text-indent: -9999px;
+  width: 1em;
+  cursor: pointer;
+}
+
+ul.removeimage li a.wmvi-remove-image::before {
+  color: #999;
+  content: "";
+  background-image: url("close.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  left: 2px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+}

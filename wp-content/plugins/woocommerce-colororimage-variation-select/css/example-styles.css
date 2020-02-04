@@ -1,0 +1,27 @@
+.main-content {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+  .main-content .accordion .accordion-header {
+    background: #E3E3E3;
+    padding: 0.5em 1em;
+    border:2px solid;
+    border-radius:25px;
+	}
+
+    .main-content .accordion .accordion-header .trigger {
+      border: 1px solid;
+      cursor: pointer; }
+
+      .main-content .accordion .accordion-header .trigger:hover {
+        background: #3c3c3c; }
+
+
+.external-triggers {
+  margin-bottom: 1em; }
+
+
+
+
+

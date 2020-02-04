@@ -1,0 +1,10 @@
+.gutenberg #uxbuilder-edit-button {
+	display: inline-flex;
+	margin-left: 8px;
+	height: 33px;
+}
+
+.gutenberg #uxbuilder-edit-button.is-busy {
+	cursor: default;
+	pointer-events: none;
+}

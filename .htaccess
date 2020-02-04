@@ -1,0 +1,12 @@
+# This file was updated by Duplicator Pro on 2020-02-03 10:24:05.
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /shopee/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /shopee/index.php [L]
+</IfModule>
+# END WordPress
